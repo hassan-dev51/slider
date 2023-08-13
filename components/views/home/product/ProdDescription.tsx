@@ -64,21 +64,7 @@ const ProdDescription = ({ data }: Props) => {
       ))}
 
       <AddToCart data={data} />
-      <div className="flex gap-x-4 pt-8">
-        <div>
-          <FaCheck className="text-lg text-green-700 mt-1" />
-        </div>
-        <div className="text-gray-700">
-          <p className="text-sm font-normal">
-            Pickup available at{" "}
-            <span className="font-medium">Ottawa Warehouse</span>
-          </p>
-          <p className="text-xs pt-1">Usually ready in 24 hours</p>
-          <p className="text-sm pt-4 text-[#EF9A9A] border-b-2 border-[#EF9A9A] pb-1 max-w-fit cursor-pointer">
-            Check availability at other stores
-          </p>
-        </div>
-      </div>
+
       <div className="pt-10 flex justify-around text-gray-700">
         <div className="flex flex-col items-center">
           <BsBagCheck className="text-3xl mb-2" />

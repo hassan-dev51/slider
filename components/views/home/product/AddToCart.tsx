@@ -6,6 +6,8 @@ import { IoIosClose } from "react-icons/io";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { CarouselProps } from "@/interface";
+import { FaCheck } from "react-icons/fa";
+import ProductAvailability from "./ProductAvailability";
 
 type Props = {
   data: CarouselProps[];
@@ -132,6 +134,19 @@ const AddToCart = ({ data }: Props) => {
       >
         BUY IT NOW
       </button>
+      <div className="flex gap-x-4 pt-8">
+        <div>
+          <FaCheck className="text-lg text-green-700 mt-1" />
+        </div>
+        <div className="text-gray-700">
+          <p className="text-sm font-normal">
+            Pickup available at{" "}
+            <span className="font-medium">Ottawa Warehouse</span>
+          </p>
+          <p className="text-xs pt-1">Usually ready in 24 hours</p>
+          <ProductAvailability />
+        </div>
+      </div>
 
       {isModalOpen && (
         <div

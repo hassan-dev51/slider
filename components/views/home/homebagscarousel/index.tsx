@@ -42,7 +42,7 @@ const BagsCarousel = ({ data, title, link }: CarouselArray) => {
           768: {
             slidesPerView: 2,
           },
-          1024: {
+          1114: {
             slidesPerView: 3,
           },
         }}
@@ -53,22 +53,24 @@ const BagsCarousel = ({ data, title, link }: CarouselArray) => {
             <Link href={`/product/${item.id}`}>
               <div className="bg-[#f4f4f4] shadow-lg">
                 <div className="relative overflow-hidden group">
-                  <div className="relative w-[420px] h-[400px] group-hover:rotate-2 group-hover:scale-110 group-hover:transition group-hover:ease-in-out group-hover:duration-500 bg-[#f4f4f4]">
+                  <div className="relative md:w-[420px] md:h-[400px] h-[350px]  group-hover:rotate-2 group-hover:scale-110 group-hover:transition group-hover:ease-in-out group-hover:duration-500 bg-[#f4f4f4]">
                     <Image
                       src={item.image[0].img}
                       alt={item.title}
                       fill
-                      sizes="(max-width: 360px) 100vw"
+                      sizes="(max-width: 360px) 90vw"
                       className=" object-fill"
                     />
                   </div>
-                  <span className="absolute left-5 top-5 bg-[#EF9A9A] p-3 text-gray-800 group-hover:opacity-0">
+                  <span className="absolute left-5 top-5 bg-[#EF9A9A] md:p-3 p-[6px] text-gray-800 group-hover:opacity-0 md:text-[16px] text-[12px]">
                     Sale 70%
                   </span>
                 </div>
 
                 <div className="flex flex-col gap-1 mt-4 ml-4 pb-3 text-[#5e5c5c]">
-                  <h2 className="text-2xl text-gray-700">{item.title}</h2>
+                  <h2 className="md:text-2xl text-[16px] text-gray-700">
+                    {item.title}
+                  </h2>
                   <p className="flex gap-5 ml-[1px] text-lg">
                     <del
                       className={`text-[#EF9A9A] ${
