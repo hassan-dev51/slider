@@ -40,19 +40,18 @@ export interface collectionArray {
 //type of tate , leather and shoulder bags located in home page
 export interface CarouselProps {
   id: string;
-  image: [
-    {
-      id: number;
-      img: StaticImageData;
-    }
-  ];
+  image: {
+    id: number;
+    img: StaticImageData;
+  }[];
+
   title: string;
   price: number;
   disPrice?: number;
   icon?: string[];
   review?: number;
   color?: string;
-  questionsAndAnswers: {
+  questionsAndAnswers?: {
     id: number;
     question: string;
     answer: string;
