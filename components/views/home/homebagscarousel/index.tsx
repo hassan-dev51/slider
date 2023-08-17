@@ -19,7 +19,7 @@ const BagsCarousel = ({ data, title, link }: CarouselArray) => {
   return (
     <div className="carousel">
       <div className="flex-between">
-        <h2 className="text-2xl">{title}</h2>
+        <h2 className="md:text-2xl text-[18px]">{title}</h2>
         <Link
           href={`${link}`}
           className="relative group inline-block text-decoration-none"
@@ -53,7 +53,7 @@ const BagsCarousel = ({ data, title, link }: CarouselArray) => {
             <Link href={`/product/${item.id}`}>
               <div className="bg-[#f4f4f4] shadow-lg">
                 <div className="relative overflow-hidden group">
-                  <div className="relative md:w-[420px] md:h-[400px] h-[350px]  group-hover:rotate-2 group-hover:scale-110 group-hover:transition group-hover:ease-in-out group-hover:duration-500 bg-[#f4f4f4]">
+                  <div className="relative md:w-[420px] w-[320px] md:h-[400px] h-[300px]  group-hover:rotate-2 group-hover:scale-110 group-hover:transition group-hover:ease-in-out group-hover:duration-500 bg-[#f4f4f4]">
                     <Image
                       src={item.image[0].img}
                       alt={item.title}
