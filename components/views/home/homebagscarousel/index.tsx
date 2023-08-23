@@ -58,8 +58,8 @@ const BagsCarousel = ({ data, title, link }: CarouselArray) => {
                     <Image
                       src={item.image[0].img}
                       alt={item.title}
-                      sizes="100vw"
-                      className="object-cover"
+                      sizes="(max-width:768px) 70vw"
+                      className="object-cover h-full"
                     />
                   </div>
                   <span className="absolute left-5 top-5 bg-[#EF9A9A] md:p-3 p-[6px] text-gray-800 group-hover:opacity-0 md:text-[16px] text-[12px]">
