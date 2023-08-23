@@ -51,13 +51,11 @@ const CollectionCarousel = ({ data }: collectionArray) => {
         {data.map((item: collectionDataProps) => (
           <SwiperSlide key={item.id} className="cursor-pointer">
             <div className="slide-image group group-hover:opacity-100">
-              <div className="relative w-[420px] h-[400px]">
+              <div className="relative">
                 <Image
                   src={item.image}
                   alt="image"
-                  fill
-                  sizes="(max-width: 360px) 100vw"
-                  className="object-cover"
+                  className="cursor-pointer object-cover w-full h-auto lg:w-[30vw] md:w-[40vw] sm:w-[50vw] xs:w-full"
                 />
               </div>
 

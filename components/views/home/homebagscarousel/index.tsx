@@ -54,13 +54,12 @@ const BagsCarousel = ({ data, title, link }: CarouselArray) => {
             <Link href={`/product/${item.id}`}>
               <div className="bg-[#f4f4f4] shadow-lg">
                 <div className="relative overflow-hidden group">
-                  <div className="relative md:w-[420px] w-[320px] md:h-[400px] h-[300px] m-auto group-hover:rotate-2 group-hover:scale-110 group-hover:transition group-hover:ease-in-out group-hover:duration-500 bg-[#f4f4f4]">
+                  <div className="relative max-w-full m-auto md:h-[400px] group-hover:rotate-2 group-hover:scale-110 group-hover:transition group-hover:ease-in-out group-hover:duration-500 bg-[#f4f4f4]">
                     <Image
                       src={item.image[0].img}
                       alt={item.title}
-                      fill
-                      sizes="(max-width: 360px) 90vw"
-                      className=" object-fill"
+                      sizes="100vw"
+                      className="object-cover"
                     />
                   </div>
                   <span className="absolute left-5 top-5 bg-[#EF9A9A] md:p-3 p-[6px] text-gray-800 group-hover:opacity-0 md:text-[16px] text-[12px]">
