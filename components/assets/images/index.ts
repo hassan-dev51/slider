@@ -83,27 +83,34 @@ export { default as storypageslideimages20 } from "./storycarousel/20.webp";
 
 //story page carousel images
 
-export { default as leatherbag1 } from "./leatherbag/1.webp";
-export { default as leatherbag2 } from "./leatherbag/2.webp";
-export { default as leatherbag3 } from "./leatherbag/3.webp";
-export { default as leatherbag4 } from "./leatherbag/4.webp";
-export { default as leatherbag5 } from "./leatherbag/5.webp";
-export { default as leatherbag6 } from "./leatherbag/6.webp";
-export { default as leatherbag7 } from "./leatherbag/7.webp";
-export { default as leatherbag8 } from "./leatherbag/8.webp";
-export { default as leatherbag9 } from "./leatherbag/9.webp";
-export { default as leatherbag10 } from "./leatherbag/10.webp";
-export { default as leatherbag11 } from "./leatherbag/11.webp";
-export { default as leatherbag12 } from "./leatherbag/12.webp";
-export { default as leatherbag13 } from "./leatherbag/13.webp";
-export { default as leatherbag14 } from "./leatherbag/14.webp";
-export { default as leatherbag15 } from "./leatherbag/15.webp";
-export { default as leatherbag16 } from "./leatherbag/16.webp";
-export { default as leatherbag17 } from "./leatherbag/17.webp";
-export { default as leatherbag18 } from "./leatherbag/18.webp";
-export { default as leatherbag19 } from "./leatherbag/19.webp";
-export { default as leatherbag20 } from "./leatherbag/20.webp";
-export { default as leatherbag21 } from "./leatherbag/21.webp";
+export { default as leatherbag1 } from "./leatherbag/1.jpeg";
+export { default as leatherbag2 } from "./leatherbag/2.jpeg";
+export { default as leatherbag3 } from "./leatherbag/3.jpeg";
+export { default as leatherbag4 } from "./leatherbag/4.jpeg";
+export { default as leatherbag5 } from "./leatherbag/5.jpeg";
+export { default as leatherbag6 } from "./leatherbag/6.jpeg";
+export { default as leatherbag7 } from "./leatherbag/7.jpeg";
+export { default as leatherbag8 } from "./leatherbag/8.jpeg";
+export { default as leatherbag9 } from "./leatherbag/9.jpeg";
+export { default as leatherbag10 } from "./leatherbag/10.jpeg";
+export { default as leatherbag11 } from "./leatherbag/11.jpeg";
+export { default as leatherbag12 } from "./leatherbag/12.jpeg";
+export { default as leatherbag13 } from "./leatherbag/13.jpeg";
+export { default as leatherbag14 } from "./leatherbag/14.jpeg";
+export { default as leatherbag15 } from "./leatherbag/15.jpeg";
+export { default as leatherbag16 } from "./leatherbag/16.jpeg";
+export { default as leatherbag17 } from "./leatherbag/17.jpeg";
+export { default as leatherbag18 } from "./leatherbag/18.jpeg";
+export { default as leatherbag19 } from "./leatherbag/19.jpeg";
+export { default as leatherbag20 } from "./leatherbag/20.jpeg";
+export { default as leatherbag21 } from "./leatherbag/21.jpeg";
+export { default as leatherbag22 } from "./leatherbag/22.jpeg";
+export { default as leatherbag23 } from "./leatherbag/23.jpeg";
+export { default as leatherbag24 } from "./leatherbag/24.jpeg";
+export { default as leatherbag25 } from "./leatherbag/25.jpeg";
+export { default as leatherbag26 } from "./leatherbag/26.jpeg";
+export { default as leatherbag27 } from "./leatherbag/27.jpeg";
+export { default as leatherbag28 } from "./leatherbag/28.jpeg";
 //collection carousel images
 
 export { default as clearance } from "./collectionComponentImages/clearance.jpg";

@@ -103,6 +103,13 @@ import {
   storypageslideimages18,
   storypageslideimages19,
   storypageslideimages20,
+  leatherbag28,
+  leatherbag27,
+  leatherbag26,
+  leatherbag25,
+  leatherbag22,
+  leatherbag23,
+  leatherbag24,
 } from "@/components/assets/images";
 //home page tate bags slider data defined in array
 export const TateBagData = [
@@ -607,9 +614,12 @@ export const LeatherBagData = [
       { id: 1, img: leatherbag1 },
       { id: 2, img: leatherbag2 },
       { id: 3, img: leatherbag3 },
+      { id: 4, img: leatherbag4 },
     ],
     title: "LL City - Steel",
+    category: "leatherbag",
     price: 89,
+    sale: "sale",
     questionsAndAnswers: [
       {
         id: 1,
@@ -628,17 +638,32 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
   {
     id: "leatherbag2",
     image: [
-      { id: 1, img: leatherbag4 },
-      { id: 2, img: leatherbag5 },
-      { id: 3, img: leatherbag6 },
+      { id: 1, img: leatherbag5 },
+      { id: 2, img: leatherbag6 },
+      { id: 3, img: leatherbag7 },
+      { id: 4, img: leatherbag8 },
     ],
     title: "LL City - Tangerine",
+    category: "leatherbag",
     price: 89,
     questionsAndAnswers: [
       {
@@ -658,17 +683,32 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
   {
     id: "leatherbag3",
     image: [
-      { id: 1, img: leatherbag7 },
-      { id: 2, img: leatherbag8 },
-      { id: 3, img: leatherbag9 },
+      { id: 1, img: leatherbag9 },
+      { id: 2, img: leatherbag10 },
+      { id: 3, img: leatherbag11 },
+      { id: 4, img: leatherbag12 },
     ],
     title: "LL City - Navy",
+    category: "leatherbag",
     price: 89,
     questionsAndAnswers: [
       {
@@ -688,18 +728,34 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
   {
     id: "leatherbag4",
     image: [
-      { id: 1, img: leatherbag10 },
-      { id: 2, img: leatherbag11 },
-      { id: 3, img: leatherbag12 },
+      { id: 1, img: leatherbag13 },
+      { id: 2, img: leatherbag14 },
+      { id: 3, img: leatherbag15 },
+      { id: 4, img: leatherbag16 },
     ],
     title: "LL City - Cranberry",
+    category: "leatherbag",
     price: 89,
+    sale: "sold out",
     questionsAndAnswers: [
       {
         id: 1,
@@ -718,17 +774,32 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
   {
     id: "leatherbag5",
     image: [
-      { id: 1, img: leatherbag13 },
-      { id: 2, img: leatherbag14 },
-      { id: 3, img: leatherbag15 },
+      { id: 1, img: leatherbag17 },
+      { id: 2, img: leatherbag18 },
+      { id: 3, img: leatherbag19 },
+      { id: 4, img: leatherbag20 },
     ],
     title: "LL City - Fiji",
+    category: "leatherbag",
     price: 89,
     questionsAndAnswers: [
       {
@@ -748,17 +819,32 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
   {
     id: "leatherbag6",
     image: [
-      { id: 1, img: leatherbag16 },
-      { id: 2, img: leatherbag17 },
-      { id: 3, img: leatherbag18 },
+      { id: 1, img: leatherbag21 },
+      { id: 2, img: leatherbag22 },
+      { id: 3, img: leatherbag23 },
+      { id: 4, img: leatherbag24 },
     ],
     title: "LL City - Ochre",
+    category: "leatherbag",
     price: 89,
     questionsAndAnswers: [
       {
@@ -778,17 +864,32 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
   {
     id: "leatherbag7",
     image: [
-      { id: 1, img: leatherbag19 },
-      { id: 2, img: leatherbag20 },
-      { id: 3, img: leatherbag21 },
+      { id: 1, img: leatherbag25 },
+      { id: 2, img: leatherbag26 },
+      { id: 3, img: leatherbag27 },
+      { id: 4, img: leatherbag28 },
     ],
     title: "LL City - Frapp",
+    category: "leatherbag",
     price: 89,
     questionsAndAnswers: [
       {
@@ -808,6 +909,19 @@ export const LeatherBagData = [
         question: "About the material",
         answer:
           "It's not leather it's better. Beautiful combination of vegan faux leather and almost everything resistant Tyvek.",
+      },
+    ],
+    checkAvailableAddress: [
+      {
+        id: 1,
+        firstStore: "Ottawa Warehouse",
+        street: "123 Fake Street",
+        road: "Ottawa ON K2P 2L8",
+        country: "Canada",
+        secondStore: "Toronto Warehouse",
+        secondStreet: "1 Woodycrest Avenue",
+        secondRoad: "Toronto ON M4J 3A5",
+        secondCountry: "Canada",
       },
     ],
   },
